@@ -18,17 +18,21 @@ a:visited{
 a:hover{
     color: black;
 }
-
+h1{
+    text-align: center;
+}
 nav{
     display: flex;
     justify-content: space-around;
 }
-
-.ul1 , .ul2{
+.ul1{
+    display: flex;
+}
+.ul2{
     display: flex;
 }
 ul li{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 li{
     list-style-type: none;
@@ -36,7 +40,6 @@ li{
 
 h1{
    font-family: Arial, sans-serif;
-   text-align:center;
 }
 
 
